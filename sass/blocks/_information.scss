@@ -1,0 +1,53 @@
+.information {
+    min-height: 329px;
+    background: #fff;
+    background: #F7F7F7;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 49px;
+    }
+    &__item {
+        width: 33%;
+        &_title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        &_list {
+            &_type {
+                a {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 21px;
+                    color: #000000;
+                    text-decoration: none;
+                }
+            }
+        }
+        &_descr {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #000000;
+            width: 367px;
+            margin-bottom: 19px;
+        }
+        &_text {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 21px;
+            color: #000000;
+        }
+    }
+}

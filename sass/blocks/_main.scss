@@ -1,0 +1,36 @@
+.main {
+    height: 90vh;
+    background: url(../../image/bgMain.png) center center / cover no-repeat;
+    &__active {
+        padding-top: 123px;
+    }
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 51px;
+        text-align: center;
+        color: #000000;
+        padding-top: 40px;
+    }
+    &__subtitle {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #000000;
+        margin-top: 14px;
+    }
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 22px;
+        &_button {
+            margin: 0 6px;
+        }
+    }
+}

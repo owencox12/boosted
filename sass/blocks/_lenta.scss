@@ -1,0 +1,38 @@
+.lenta {
+    min-height: 308px;
+    background: #000;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 35px;
+    }
+    &__item {
+        &_image {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &_title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 31px;
+            line-height: 36px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 5px;
+        }
+        &_descr {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            text-align: center;
+            color: #FFFFFF;
+            width: 280px;
+            margin-top: 25px;
+        }
+    }
+}

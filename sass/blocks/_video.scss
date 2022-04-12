@@ -1,0 +1,13 @@
+.video {
+    min-height: 423px;
+    background: #fff;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.container__video {
+    max-width: 1140px;
+    margin: 0 auto;
+}

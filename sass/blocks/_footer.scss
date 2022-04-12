@@ -1,0 +1,23 @@
+.footer {
+    min-height: 70px;
+    background: #fff;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        padding-top: 19px;
+        &_text {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 19px;
+            color: #000000;
+            span {
+                color: #FF4A32;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.button {
+    width: 201px;
+    height: 33px;
+    background: #FF4A32;
+    border-radius: 35px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    &--main {
+    }
+    &--electric {
+
+    }
+    &--boosted {
+        width: 101px;
+    }
+}

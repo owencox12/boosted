@@ -1,0 +1,42 @@
+.electric {
+    background: url(../../image/electricBG.png) center center / cover no-repeat;
+    min-height: 838px;
+    padding-top: 44px;
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #000000;
+    }
+    &__subtitle {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 51px;
+        text-align: center;
+        color: #000000;
+        margin-top: 11px;
+    }
+    &__descr {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #000000;
+        width: 488px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    &__button {
+        text-align: center;
+        margin-top: 20px;
+    }
+}

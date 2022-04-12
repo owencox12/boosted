@@ -1,0 +1,41 @@
+.photos {
+    padding-bottom: 40px;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    &__item {
+        &_image {
+            position: relative;
+            &_text {
+                position: absolute;
+                top: 208px;
+                left: 109px;
+                &_title {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 25px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+                &_descr {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 23px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
+
+.photos-img {
+    max-width: 100%;
+    height: auto;
+}

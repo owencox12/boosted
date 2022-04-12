@@ -1,0 +1,9 @@
+.sponsors {
+    height: 83px;
+    background: #000;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 18px;
+    }
+}

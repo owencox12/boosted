@@ -1,0 +1,26 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.container__sponsors {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/button';
+@import 'blocks/sponsors';
+@import 'blocks/about';
+@import 'blocks/electric';
+@import 'blocks/boosted';
+@import 'blocks/photos';
+@import 'blocks/video';
+@import 'blocks/slider';
+@import 'blocks/lenta';
+@import 'blocks/information';
+@import 'blocks/footer';
+@import 'blocks/media';

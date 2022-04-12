@@ -1,0 +1,39 @@
+.boosted {
+    min-height: 469px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 44px;
+    }
+    &__item {
+        &_block {
+            display: flex;
+            justify-content: space-between;
+            &_image {
+                margin: 0 10px;
+            }
+        }
+        &_title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 38px;
+            color: #000000;
+            margin-top: 70px;
+        }
+        &_descr {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;                 
+            color: #000000;
+            width: 339px;
+            margin-top: 21px;
+        }
+        &_button {
+            margin-top: 18px;
+        }
+}
+}
